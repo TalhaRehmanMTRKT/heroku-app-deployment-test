@@ -4,6 +4,8 @@ from dash.dependencies import Input, Output
 import random
 app = dash.Dash(__name__)
 
+server = app.server
+
 app.layout = html.Div(
     children=[
         html.H1("Random Number Generator"),
